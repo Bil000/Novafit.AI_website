@@ -1,0 +1,9 @@
+Copyright (c) 2024 Novafit.ai
+
+Permission to use, copy, modify, and/or distribute this software for any purpose is granted free of charge, provided that the above copyright notice and this permission notice appear in all copies, prior written consent is obtained from Novafit.ai, and that Novafit.ai is watermarked and credited on any distributed or publicly visible versions of this software.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND NOVAFIT.AI DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL NOVAFIT.AI BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+**Proprietary AI Clause**: This license does not cover AI models, proprietary algorithms, or any other intellectual property not explicitly included in the public repository. Use of Novafit.ai’s AI technology, algorithms, and related intellectual property is prohibited without prior written consent from Novafit.ai. Accessing, modifying, distributing, or reverse-engineering Novafit.ai’s proprietary AI components is strictly prohibited.
+
+For more information, please visit https://www.novafitai.com or contact us at NovafitAi.business@gmail.com.
