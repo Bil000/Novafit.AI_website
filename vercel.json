@@ -1,0 +1,11 @@
+{
+    "builds": [
+      { "src": "app/front_end/next.config.js", "use": "@vercel/next" },
+      { "src": "app/back_end/api/index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "app/back_end/api/index.js" },
+      { "src": "/(.*)", "dest": "app/front_end/next.config.js" }
+    ]
+  }
+  

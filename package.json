@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"next dev -p 3001\" \"node ./app/back_end/api/index.js\"",
-    "build": "next build && tsc",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd app/front_end && next build",
+    "build:backend": "tsc && node ./app/back_end/api/index.js",
     "start": "node ./app/back_end/api/index.js",
     "lint": "next lint",
     "server": "nodemon ./app/back_end/api/index.js"
@@ -18,15 +20,15 @@
     "cloudinary": "^2.5.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "next": "^15.0.2",
-    "postcss": "^8.4.47",
+    "next": "^15.0.3",
+    "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.14",
-    "vercel": "^37.14.0"
+    "vercel": "^38.0.0"
   },
   "devDependencies": {
-    "concurrently": "^8.0.1",
-    "nodemon": "^3.0.1"
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7"
   }
 }
