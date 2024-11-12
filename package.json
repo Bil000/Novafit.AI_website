@@ -1,20 +1,32 @@
 {
   "name": "novafit.ai_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "NovaFit.ai official website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"next dev -p 3001\" \"node ./app/back_end/api/index.js\"",
+    "build": "next build && tsc",
+    "start": "node ./app/back_end/api/index.js",
+    "lint": "next lint",
+    "server": "nodemon ./app/back_end/api/index.js"
   },
-  "author": "Clebio, Joshua and Damien.",
-  "license": "LICENSE AND TERMS ADRESSED IN LICENSE FILE.",
+  "author": "Clebio, Joshua, and Damien.",
+  "license": "LICENSE AND TERMS ADDRESSED IN LICENSE FILE.",
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "cloudinary": "^2.5.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "next": "^15.0.2",
     "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.14",
-    "vercel": "^32.3.0"
+    "vercel": "^37.14.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^3.0.1"
   }
 }
